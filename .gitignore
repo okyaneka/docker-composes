@@ -1,0 +1,19 @@
+# Ignore Docker Compose override files
+docker-compose.override.yml
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore macOS system files
+.DS_Store
