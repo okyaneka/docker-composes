@@ -2,10 +2,7 @@
 
 ## Run it first
 
-```
-openssl rand -base64 756 > mongo-keyfile
-chmod 400 mongo-keyfile
-```
+Run run.sh first to generate keyfile
 
 ## Add it to your hosts
 
@@ -13,4 +10,12 @@ chmod 400 mongo-keyfile
 127.0.0.1 mongo-rs0-1
 127.0.0.1 mongo-rs0-2
 127.0.0.1 mongo-rs0-3
+```
+
+## How to connect
+
+```
+port      : 27017
+user      : admin
+password  : secret
 ```

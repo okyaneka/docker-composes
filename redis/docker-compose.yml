@@ -9,7 +9,7 @@ services:
       - ./redis.conf:/usr/local/etc/redis/redis.conf
     restart: always
     environment:
-      - REDIS_PASSWORD=password
+      - REDIS_PASSWORD=secret
     command: [ "redis-server", "--requirepass", "${REDIS_PASSWORD}" ]
 
 volumes:
